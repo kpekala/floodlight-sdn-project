@@ -26,3 +26,7 @@ Zakładamy, że używamy minimalnej topologii: `sudo mn --topo single,2 --contro
 1. W środowisku mininet uruchamiamy xterm `xterm h1 h2`
 2. Na h1 włączamy serwer: `python3 ./mininet/generator/server.py`
 3. Na h2 włączamy klienta: `python3 ./mininet/generator/client.py` i przerywamy wysyłanie używając ctrl + c
+
+## Algorytm
+
+Pseudokod algorytmu znajduję się w folderze algorithm
